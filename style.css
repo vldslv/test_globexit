@@ -1,0 +1,35 @@
+table {
+    margin: 0 auto;
+    margin-top: 10px;
+    border-spacing: 10px;
+    
+}
+td {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+table td {
+    background-color: #e85d5d;
+}
+table tr:nth-child(2n+1) td:nth-child(2n),
+table tr:nth-child(2n) td:nth-child(2n+1) {
+    background-color: #e5a0a0;
+    color: #18e6f5;
+    font-style: italic;
+}
+.form-block {
+    margin-top: 20px;
+    text-align: center;
+}
+select {
+    width: 200px;
+    height: 50px;
+    text-align-last: center;
+    text-align: center;
+}
+input {
+    width: 50px;
+    height: 50px;
+}
